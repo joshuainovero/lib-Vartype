@@ -9,7 +9,7 @@ if users dont want to use the auto keyword or templates. Below are the list of s
 - Strings
 - Single characters
 <br>
-___Note:___ A static library is required to be linked directly in your program: libvt-variable.a
+Note: a static library is required to be linked directly into your program: libvt-variable.a
 
 # Features #
 - Type erasure which means that any value may be held in a single variable
