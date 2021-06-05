@@ -114,4 +114,9 @@ std::cout << mystring.length() << std::endl; // -> returns
 ```
 ## Vectors and looping ##
 The vartype strings behaves like associative arrays in which users can access the characters in a string by referencing to its index number inside
-square brackets [].
+square brackets []. 
+```cpp
+vartype var = "Some String";
+std::cout << var[2] << std::endl; // -> returns a character 'm'
+vartype newvar = var[6]; // newvar will be a char data type with a value 't'
+```
