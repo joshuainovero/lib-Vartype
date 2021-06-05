@@ -99,7 +99,7 @@ vartype num4 = vt::toString(num1); // Converts to string
 vartype num5 = vt::toString(num2); // Converts to string
 vartype num6 = vt::toString(num3); // Converts to string
 ```
-<br>A method called ___type___</i> is also implemented in the class to identify the current data type of the variable.<br>
+<br>A method called ___type()___</i> is also implemented in the class to identify the current data type of the variable.<br>
 ```cpp
 vartype var1 = 30;
 vartype var2 = "Hello World";
