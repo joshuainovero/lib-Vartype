@@ -138,7 +138,7 @@ vartype str = "Joshua";
 for (size_t i = 0; i < str.length(); ++i)
   std::cout << str[i] << std::endl; // Outputting every character from the string
 ```
-It also goes the same for the vectors. A ranged-based for loop can also be used in this case. Instead of using the 'auto' keyword, we can replace
+It also goes the same for the vectors. A ranged-based for loop can be used in this case. Instead of using the 'auto' keyword, we can replace
 it with the class 'vartype'.
 ```cpp
  std::vector<vartype> vec {1,4,"hello",48.34,"okay",578,32,2.32,"wassup",43};
