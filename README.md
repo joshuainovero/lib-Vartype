@@ -98,3 +98,13 @@ vartype num3 = (float)23.5;
 vartype num4 = vt::toString(num1); // Converts to string
 vartype num5 = vt::toString(num2); // Converts to string
 vartype num6 = vt::toString(num3); // Converts to string
+```
+<br>
+A method called <i>type()</i> is also implemented in the class to identify the current data type of the variable.
+```cpp
+vartype var1 = 30;
+vartype var2 = "Hello World";
+std::cout << var1.type() << std::endl; // -> will output to 'Int'
+std::cout << var2.type() << std::endl; // -> will output to 'String'
+std::cout << vt::toString(var1).type(); // -> will output to 'String'
+```
