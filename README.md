@@ -11,5 +11,5 @@ appropriate value to the instance without specifying the data type. Below are th
 # Features #
 - Type erasure which means that any value may be held in a single variable
 - It converts between any type of data
-- No data leakage in the process of conve
+- No data leakage in the process of convertion
 - Multiply data types in a vector are well supported
