@@ -83,4 +83,8 @@ myvar = vt::parseFloat(myvar); // -> myvar gets reassigned to a float 367.432
 myvar anothervar = "100";
 anothervar = vt::parseFloat(anothervar); // -> value is 100 but is still a floating type number
 ```
-___vt::parseFloat(vartype strData);___<br>
+___vt::parseDouble(vartype strData);___<br>
+```cpp
+vartype var = "231.544";
+var = vt::parseDouble(var); // -> var gets reassigned to a double 231.544
+```
