@@ -8,6 +8,8 @@ if users dont want to use the auto keyword or templates. Below are the list of s
 - 32 and 64 bit floating points
 - Strings
 - Single characters
+<br>
+___Note:___ A static library is required to be linked in your program:___libvt-variable.a___
 
 # Features #
 - Type erasure which means that any value may be held in a single variable
