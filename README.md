@@ -125,3 +125,9 @@ The declaration of the vartype vector would be:
  ```cpp
  std::vector<vartype> vec {1,4,"hello",48.34,"okay",578,32,2.32,"wassup",43};
  ```
+The elements of the vector can be easily accessed by also referencing its index number inside the square brackets [] or the __at()__ method.
+```cpp
+std::cout << vec.at(0) << std::endl; // -> returns a vartype integer 1
+std::cout << vec.at(2) << std::endl; // -> returns a vartype string "hello";
+vartype somevar = vec.at(7); // assigns 2.32 double to somevar
+```
