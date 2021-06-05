@@ -36,3 +36,15 @@ var3 = 'A';
 var4 = 3782.43;
 var5 = (float)87.34;
 ```
+
+## Operators ##
+Operators are well implemented in all known basic C++ types. It may throw an error in illogical situations like adding
+a vartype string to an integer vartype.
+```cpp
+vartype num1 = 20;
+vartype num2 = 37;
+std::cout << num1 + 100 << std::endl;
+std::cout << num1 + num2 << std::endl;
+vartype num3 = num2 - num1;
+// More examples at the 'example' directory in the reposistory
+```
