@@ -65,4 +65,4 @@ vartype /= (float)2; // -> 2.5 -> Float
 The external functions for the manipulations of the instances from the class are declared in the namespace 'vt'. These
 functions can manipulate variables like converting existing data types to new data types explicitly.
 * vt::parseInt(vartype strData);
-The parseInt function converts its first argument to a string, parses that string, then returns an integer
+  The parseInt function converts its first argument to a string, parses that string, then returns an integer
