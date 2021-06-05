@@ -64,7 +64,7 @@ vartype /= (float)2; // -> 2.5 -> Float
 ## Functions and methods ##
 The external functions for the manipulations of the instances from the class are declared in the namespace 'vt'. These
 functions can manipulate variables like converting existing data types to new data types explicitly.<br><br>
-___vt::parseInt(vartype strData);___<br>
+___vt::parseInt((your vartype variable));___<br>
 The parseInt function converts its first argument to a string, parses that string, then returns a <i>vartype</i> integer.
 ```cpp
 vartype myvar = "500";
@@ -75,15 +75,15 @@ vartype sum = vt::parseInt(strnum1) + vt::parseInt(strnum2); // -> 110
 ```
 <br>
 
-___vt::parseFloat(vartype strData);___<br>
-The parseInt function converts its first argument to a string, parses that string, then returns a float.
+___vt::parseFloat((your vartype variable));___<br>
+The parseInt function converts its first argument to a string, parses that string, then returns a <i>vartype</i> float.
 ```cpp
 vartype myvar = "367.432";
 myvar = vt::parseFloat(myvar); // -> myvar gets reassigned to a float 367.432
 myvar anothervar = "100";
 anothervar = vt::parseFloat(anothervar); // -> value is 100 but is still a floating type number
 ```
-<br>___vt::parseDouble(vartype strData);___<br>
+<br>___vt::parseDouble((your vartype variable);___<br>
 ```cpp
 vartype var = "231.544";
 var = vt::parseDouble(var); // -> var gets reassigned to a double 231.544
