@@ -26,3 +26,12 @@ vartype var3 = (float)673.23;
 vartype var4 = 'J';
 vartype var5 = "Some String"
 ```
+
+These variables can be reassigned to a new data type after being initialized.
+```cpp
+var1 = "I changed to string";
+var2 = 20;
+var3 = 'A';
+var4 = 3782.43;
+var5 = (float)87.34;
+```
