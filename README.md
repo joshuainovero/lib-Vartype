@@ -120,3 +120,4 @@ vartype var = "Some String";
 std::cout << var[2] << std::endl; // -> returns a character 'm'
 vartype newvar = var[6]; // newvar will be a char data type with a value 't'
 ```
+We can also declare a vector of vartypes using the class. This is very powerful as it enables you to create a dynamic list containing multiple data types.
