@@ -132,3 +132,16 @@ std::cout << vec.at(0) << std::endl; // -> returns a vartype integer 1
 std::cout << vec.at(2) << std::endl; // -> returns a vartype string "hello";
 vartype somevar = vec.at(7); // assigns 2.32 double to somevar
 ```
+We can iterate through the vartype string by using a for loop.
+```cpp
+vartype str = "Joshua";
+for (size_t i = 0; i < str.length(); ++i)
+  std::cout << str[i] << std::endl; // Outputting every character from the string
+```
+It also goes the same for the vectors. A ranged-based for loop can also be used in this case. Instead of using the 'auto' keyword, we can replace
+it with the class 'vartype'.
+```cpp
+ std::vector<vartype> vec {1,4,"hello",48.34,"okay",578,32,2.32,"wassup",43};
+for (vartype elem : vec)
+  std::cout << elem << std::endl; // outputs the elements of the multi-data type vector
+```
