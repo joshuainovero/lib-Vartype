@@ -113,5 +113,5 @@ vartype mystring = "Hello";
 std::cout << mystring.length() << std::endl; // -> returns
 ```
 ## Vectors and looping ##
-The class allows string indexing in which users can access the characters in a string by referencing to its index number inside
+The vartype strings behaves like associative arrays in which users can access the characters in a string by referencing to its index number inside
 square brackets [].
