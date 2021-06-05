@@ -46,5 +46,7 @@ vartype num2 = 37;
 std::cout << num1 + 100 << std::endl;
 std::cout << num1 + num2 << std::endl;
 vartype num3 = num2 - num1;
-// More examples at the 'example' directory in the reposistory
+// More examples at the 'example' directory in this reposistory
 ```
+
+## Automatic promotions in numerical data types ##
