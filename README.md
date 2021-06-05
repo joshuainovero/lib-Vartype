@@ -91,4 +91,10 @@ var = vt::parseDouble(var); // -> var gets reassigned to a double 231.544
 ```
 <br>___vt::toString((your vartype variable));___<br>
 The toString function converts a numerical value to a vartype string.
-
+```cpp
+vartype num1 = 20;
+vartype num2 = 80.478;
+vartype num3 = (float)23.5;
+vartype num4 = vt::toString(num1); // Converts to string
+vartype num5 = vt::toString(num2); // Converts to string
+vartype num6 = vt::toString(num3); // Converts to string
