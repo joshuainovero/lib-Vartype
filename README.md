@@ -66,3 +66,10 @@ The external functions for the manipulations of the instances from the class are
 functions can manipulate variables like converting existing data types to new data types explicitly.<br><br>
 ___vt::parseInt(vartype strData);___<br>
 The parseInt function converts its first argument to a string, parses that string, then returns an integer
+```cpp
+vartype myvar = "500";
+myvar = vt::parseInt(myvar); // -> myvar gets reassigned to an integer 500
+vartype strnum1 = "50";
+vartype strnum2 = "60";
+vartype sum = vt::parseInt(strnum1) + vt::parseInt(strnum2); // -> 110
+```
