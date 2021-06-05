@@ -83,10 +83,12 @@ myvar = vt::parseFloat(myvar); // -> myvar gets reassigned to a float 367.432
 myvar anothervar = "100";
 anothervar = vt::parseFloat(anothervar); // -> value is 100 but is still a floating type number
 ```
-<br>___vt::parseDouble((your vartype variable);___<br>
+<br>___vt::parseDouble((your vartype variable));___<br>
 The parseInt function converts its first argument to a string, parses that string, then returns a <i>vartype</i> double.
 ```cpp
 vartype var = "231.544";
 var = vt::parseDouble(var); // -> var gets reassigned to a double 231.544
 ```
-<br>__vt::toString
+<br>__vt::toString((your vartype variable));
+The toString function converts a numerical value to a vartype string.
+
