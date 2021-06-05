@@ -56,7 +56,7 @@ are carried out by the class.
 vartype num1 = 100; // Declared as an integer;
 var += 50.434; // Converts the data type to a double
 vartype = 5;
-vartype /= 2; // -> 2.5
+vartype /= (float)2; // -> 2.5 -> Float
 ```
 
 ## Functions and methods ##
