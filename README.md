@@ -112,3 +112,4 @@ std::cout << vt::toString(var1).type(); // -> will output to 'String'
 vartype mystring = "Hello";
 std::cout << mystring.length() << std::endl; // -> returns
 ```
+## Vectors and looping ##
