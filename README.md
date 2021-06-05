@@ -89,6 +89,6 @@ The parseInt function converts its first argument to a string, parses that strin
 vartype var = "231.544";
 var = vt::parseDouble(var); // -> var gets reassigned to a double 231.544
 ```
-<br>__vt::toString((your vartype variable));
+<br>___vt::toString((your vartype variable));___<br>
 The toString function converts a numerical value to a vartype string.
 
