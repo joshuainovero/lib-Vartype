@@ -141,7 +141,7 @@ for (size_t i = 0; i < str.length(); ++i)
 It also goes the same for the vectors. A ranged-based for loop can be used in this case. Instead of using the 'auto' keyword, we can replace
 it with the class 'vartype'.
 ```cpp
- std::vector<vartype> vec {1,4,"hello",48.34,"okay",578,32,2.32,"wassup",43};
+std::vector<vartype> vec {1,4,"hello",48.34,"okay",578,32,2.32,"wassup",43};
 for (vartype elem : vec)
   std::cout << elem << std::endl; // outputs the elements of the multi-data type vector
 ```
