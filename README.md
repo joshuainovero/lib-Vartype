@@ -121,4 +121,7 @@ std::cout << var[2] << std::endl; // -> returns a character 'm'
 vartype newvar = var[6]; // newvar will be a char data type with a value 't'
 ```
 We can also declare a vector of vartypes using the class. This is very powerful as it enables you to create a dynamic list containing multiple data types.
-The intialization of the vector would be std::vector<vartypes> yourvec;
+The declaration of the vartype vector would be:
+ ```cpp
+ std::vector<vartype> vec {1,4,"hello",48.34,"okay",578,32,2.32,"wassup",43};
+ ```
