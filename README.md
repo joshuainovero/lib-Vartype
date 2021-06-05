@@ -43,9 +43,11 @@ a vartype string to an integer vartype.
 ```cpp
 vartype num1 = 20;
 vartype num2 = 37;
-std::cout << num1 + 100 << std::endl;
-std::cout << num1 + num2 << std::endl;
-vartype num3 = num2 - num1;
+std::cout << num1 + 100 << std::endl; // -> 120
+std::cout << num1 + num2 << std::endl; // -> 57
+vartype num3 = num2 - num1; // -> 3
+vartype firstname = "Joshua", lastname = " Inovero";
+vartype fullname = firstname + lastname; // -> "Joshua Inovero"
 // More examples at the 'example' directory in this reposistory
 ```
 
