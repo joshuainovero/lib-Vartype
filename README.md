@@ -122,3 +122,4 @@ vartype newvar = var[6]; // newvar will be a char data type with a value 't'
 ```
 We can also declare a vector of vartypes using the class. This is very powerful as it enables you to create a dynamic list containing multiple data types.
 The intialization of the vector would be __std::vector<vartypes> yourvec;___.
+  <>
