@@ -18,7 +18,7 @@ appropriate value to the instance without specifying the data type. Below are th
 
 # Usage #
 ## Declaring a variable ##
-Declare your variables by simply by defining the class "vartype" along with your desired variable name.
+Declare your variables by simply defining the class "vartype" along with your desired variable name.
 ```cpp
 vartype var1 = 200;
 vartype var2 = 423.65;
