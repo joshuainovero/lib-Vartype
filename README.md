@@ -62,3 +62,5 @@ vartype /= (float)2; // -> 2.5 -> Float
 ```
 
 ## Functions and methods ##
+The external functions for the manipulations of the instances from the class are declared in the namespace 'vt'. Theses
+functions can manipulate the variables like converting data types to a new type explicitly.
