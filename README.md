@@ -2,7 +2,7 @@
 libvartype is a C++ open source library that can hold primitive and non-primitive data types in a user-defined variable.
 This library will enable users to create objects or instances from the class "vartype" which can automatically assign an
 appropriate value to the instance without specifying the data type. This library can also be used as an argument data type
-if you dont want to use the auto keyword or templates. Below are the list of supported data types for the class
+if users dont want to use the auto keyword or templates. Below are the list of supported data types for the class
 "vartype" :
 - 32 bit signed integers
 - 32 and 64 bit floating points
