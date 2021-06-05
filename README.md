@@ -13,4 +13,9 @@ appropriate value to the instance without specifying the data type. Below are th
 - Operators are fully functional
 - It converts between any type of data
 - No data leakage in the process of convertion
+- Can be assigned to a new data type after being initialized
 - Multiply data types in a vector are well supported
+
+# Usage #
+## Declaring a variable ##
+Declare your variables by simply by defining the class "vartype" along with your desired variable name.
