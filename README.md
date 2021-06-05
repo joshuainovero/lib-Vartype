@@ -73,3 +73,5 @@ vartype strnum1 = "50";
 vartype strnum2 = "60";
 vartype sum = vt::parseInt(strnum1) + vt::parseInt(strnum2); // -> 110
 ```
+
+___vt::parseFloat(vartype strData);___
