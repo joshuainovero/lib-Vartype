@@ -27,7 +27,8 @@ vartype var4 = 'J';
 vartype var5 = "Some String"
 ```
 
-These variables can be reassigned to a new data type after being initialized.
+These variables can be reassigned to a new data type after being initialized. Bear in mind that the memory address of
+the previous data type are freed and allocated a new memory for the existing data type.
 ```cpp
 var1 = "I changed to string";
 var2 = 20;
