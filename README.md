@@ -107,3 +107,8 @@ std::cout << var1.type() << std::endl; // -> will output to 'Int'
 std::cout << var2.type() << std::endl; // -> will output to 'String'
 std::cout << vt::toString(var1).type(); // -> will output to 'String'
 ```
+<br>The ___length()___ method returns an unsigned integer type of characters present in the string.
+```cpp
+vartype mystring = "Hello";
+std::cout << mystring.length() << std::endl; // -> returns
+```
