@@ -50,3 +50,11 @@ vartype num3 = num2 - num1;
 ```
 
 ## Automatic promotions in numerical data types ##
+To minimize the possible loss of data, automatic convertions of a nummerical data type to another numerical data type
+are carried out by the class.
+```cpp
+vartype num1 = 100; // Declared as an integer;
+var += 50.434; // Converts the data type to a double
+vartype = 5;
+vartype /= 2; -> 2.5
+```
