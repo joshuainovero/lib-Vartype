@@ -1,5 +1,6 @@
 # lib-Vartype #
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![version](https://img.shields.io/badge/version-1.0.1-yellow.svg)](https://semver.org)<br>
 libvartype is a C++ open source library that can hold primitive and non-primitive data types in a user-defined variable.
 This library will enable users to create objects or instances from the class "vartype" which can automatically assign an
 appropriate value to the instance without specifying the data type. This library can also be used as an argument data type
