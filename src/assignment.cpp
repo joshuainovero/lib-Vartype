@@ -1,4 +1,4 @@
-#include "../../include/vartype/util/varclass.hpp"
+#include "include/varclass.hpp"
 
 void vartype::operator=(const int &valuetype){
     if (int_t == nullptr){

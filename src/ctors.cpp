@@ -1,4 +1,4 @@
-#include "../../include/vartype/util/varclass.hpp"
+#include "include/varclass.hpp"
 #include <cstring>
 
 void vartype::freeTypes() {

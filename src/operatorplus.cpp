@@ -1,4 +1,4 @@
-#include "../../include/vartype/util/varclass.hpp"
+#include "include/varclass.hpp"
 
 vartype operator+(const vartype lhs, const int &rhs) {
     vartype temp;

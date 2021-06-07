@@ -1,5 +1,5 @@
-#include "../../include/vartype/util/varclass.hpp"
-#include "../../include/vartype/util/interface.hpp"
+#include "include/varclass.hpp"
+#include "include/interface.hpp"
 #include <cctype>
 #include <memory>
 
@@ -68,7 +68,7 @@ std::ostream &operator<<(std::ostream &os, const vartype &var) {
             os << *var.str_t;
         break;
         case vartype::DataType::none:
-            os << (int)&var;
+            os << 0;
         break;
     }
     return os;

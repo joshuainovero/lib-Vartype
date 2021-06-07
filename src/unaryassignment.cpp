@@ -1,4 +1,4 @@
-#include "../../include/vartype/util/varclass.hpp"
+#include "include/varclass.hpp"
 
 vartype &vartype::operator+=(const vartype &rhs){
     *this = *this + rhs;
