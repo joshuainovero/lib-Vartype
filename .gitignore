@@ -1,3 +1,5 @@
 Debug/
 .vscode/
-examples/output/output.exe
+*.exe
+*.out
+*.o
